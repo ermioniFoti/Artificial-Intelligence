@@ -4,7 +4,7 @@ A software project developed to solve the **Unruly** logic puzzle using Artifici
 
 This project was developed as part of the **1st Assignment** for the **Artificial Intelligence (PLH 311)** course at the **Technical University of Crete** (Fall 2024).
 
----
+
 
 ## 📌 Project Overview
 
@@ -19,7 +19,7 @@ This project solves the puzzle using two distinct AI approaches:
 * **Systematic Search (Problem 4):** Ensures finding a solution if one exists.
 * **Simulated Annealing (Problem 5):** An optimization approach to minimize rule violations.
 
----
+
 
 ## 🚀 Implemented Algorithms
 
@@ -53,7 +53,7 @@ Approaches the puzzle as an optimization problem, minimizing the number of rule 
     * Reports the **Number of Violations** in the final state.
     * Reports **Execution Time** and **Total Steps** taken.
 
----
+
 
 ## 📄 Input File Format
 
@@ -70,23 +70,7 @@ The program accepts input files containing a single line of ASCII text describin
 **Example (8x8 Grid):**
 `8x8: bceadEDgCcAgCcabBi`
 
----
 
-## 🛠️ Usage
-
-### Running the Systematic Search (Problem 4)
-1.  Run the main executable/script for Problem 4.
-2.  Enter the input filename (e.g., `puzzle1.txt`).
-3.  Enter the limit for nodes to expand.
-4.  The program will output the solution string and performance metrics.
-
-### Running Simulated Annealing (Problem 5)
-1.  Run the main executable/script for Problem 5.
-2.  Enter the input filename.
-3.  Enter the maximum number of local steps.
-4.  The program will attempt to minimize violations and output the best state found.
-
----
 
 ## 📊 Analysis
 
@@ -96,5 +80,4 @@ The project also includes a performance analysis for Simulated Annealing:
 
 ---
 
-**Developed for:** School of Electrical and Computer Engineering,  
-Technical University of Crete.
+*Developed for the School of Electrical and Computer Engineering, Technical University of Crete.*
